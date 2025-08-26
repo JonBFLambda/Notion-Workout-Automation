@@ -205,3 +205,24 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# --- Project-specific ignores ---
+
+# Local notes and exports
+notes/
+notion-exports/
+http-shortcuts/
+http-shortcuts/*.json
+
+# Editor/project files
+.vscode/
+*.code-workspace
+
+# Local data & logs
+data/
+*.db
+*.sqlite
+
+# OS cruft
+.DS_Store
+Thumbs.db
